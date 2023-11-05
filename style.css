@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+i {
+    cursor: pointer;
+}
+#top-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 0 150px;
+    background-color: white;
+    box-shadow: 0 1px 10px gray;
+}
+.logo-container {
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+.logo-container i {
+    font-size: 2em;
+    padding-right: 5px;
+}
+.icons-topbar {
+    display: flex;
+    padding: 10px;
+    align-items: baseline;
+}
+.icons-topbar i {
+    padding: 0 8px;
+}
+.icons-topbar div {
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+#user {
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#box-content {
+    display: flex;
+}
+#box-content-left {
+    padding-left: 100px;
+    padding-right: 30px;
+    width: 60%;
+    border-right: solid gray 1px;
+    height: 100%;
+}
+.top-content {
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    border-bottom: solid gray 1px;
+}
+.top-content div {
+    padding-right: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.top-content div:hover {
+    text-decoration: underline;
+    border-bottom: solid 2px black;
+}
+.article-publisher {
+    display: flex;
+    align-items: baseline;
+    padding-top: 30px;
+}
+.article-publisher i {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.article-publisher p {
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.article-text-container {
+    display: flex;
+    justify-content: space-between;
+}
+.article-text {
+    max-width: 450px;
+}
+.article-image img {
+    width: 200px;
+    padding-right: 60px;
+}
+.article-text h3, p {
+    margin: 0;
+}
+.article-text p {
+    max-height: 60px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.article-text-info {
+    display: flex;
+    font-size: 12px;
+    margin-top: 15px;
+    align-items: baseline;
+}
+.article-text-info1 {
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+}
+.article-text-info1 p {
+    padding-right: 10px;
+}
+.article-text-info1 span {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 5px;
+}
+.article-text-info2 {
+    display: flex;
+    padding-left: 100px;
+    font-size: 13px;
+}
+.article-text-info2 .fa-ellipsis {
+    padding-left: 20px;
+}
+#box-content-right {
+    width: 40%;
+}
+.icons-MT {
+    display: flex;
+    margin-top: 50px;
+    font-size: 35px;
+    align-items: baseline;
+}
+.box-content-right-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-bottom: solid black 1px;
+    margin: 0 120px 0 30px;
+    height: 280px;
+}
+.box-content-right-top div {
+margin-bottom: 20px;
+}
+.button-twitter {
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+#button-later {
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+.twitter-txt p {
+    text-align: center;
+    width: 300px
+}
+.box-content-right-center {
+    margin: 40px 120px 0 30px;
+    width: 250px;
+}
+.box-content-right-center h3, p {
+    margin-bottom: 0;
+}
+.topic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.topic p {
+    background-color: #F3F1F2;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 0.8em;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+}
+.box-content-right-bottom {
+    margin: 40px 120px 0 30px;
+    width: 250px;
+}
+.follow-user {
+    display: flex;
+    margin-bottom: 30px;
+}
+.follow-user-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.follow-user h5 {
+    margin: 0 0 10px 15px;
+}
+.follow-user-txt p {
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+.follow-user-button {
+    align-self: center;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+img {
+    cursor: pointer;
+}
